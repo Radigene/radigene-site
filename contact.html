@@ -7,23 +7,38 @@
 <meta name="description" content="Contact Radigene B.V.">
 <link rel="icon" href="assets/favicon-64.png">
 <link rel="canonical" href="https://radigene.nl/contact.html">
+<link rel="preload" href="assets/fonts/Bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<header>
-  <a href="index.html" aria-label="Radigene home"><img src="assets/logo-full.png" alt="Radigene" width="44" height="39"></a>
-  <nav aria-label="Main">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html"  aria-current="page">Contact</a>
-  </nav>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo-mark.png" alt="" width="30" height="30">Radigene</a>
+    <nav aria-label="Main"><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul></nav>
+  </div>
 </header>
-<main>
-  <h1>Contact</h1>
-  <p>For partnerships, pilots, press and other questions, write to <a href="mailto:hello@radigene.nl">hello@radigene.nl</a>.</p>
+<main id="main">
+<section class="hero" style="padding-bottom:clamp(32px,5vw,64px)"><div class="wrap">
+  <p class="eyebrow">Contact</p>
+  <h1>Get in <em>touch</em>.</h1>
+  <p class="lede">For partnerships, pilots, press and other questions, write to us.</p>
+  <p style="margin-top:28px"><a class="mail" href="mailto:hello@radigene.nl">hello@radigene.nl</a></p>
+</div></section>
+<section class="tint"><div class="wrap">
   <h2>Company</h2>
-  <p>Radigene B.V.<br>The Netherlands<br>KvK 42179941</p>
+  <div class="panel"><dl class="kv"><dt>Name</dt><dd>Radigene B.V.</dd><dt>KvK number</dt><dd>42179941</dd><dt>Country</dt><dd>The Netherlands</dd></dl></div>
+</div></section>
 </main>
-<footer>Radigene B.V. Preclinical. Investigational. Not used in patients. Not a medical device.</footer>
+<footer class="site">
+  <div class="wrap">
+    <span><b>Radigene B.V.</b> &middot; KvK 42179941 &middot; <a href="mailto:hello@radigene.nl">hello@radigene.nl</a></span>
+    <span>Preclinical. Investigational. Not used in patients. Not a medical device.</span>
+  </div>
+</footer>
 </body>
 </html>

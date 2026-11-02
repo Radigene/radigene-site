@@ -7,44 +7,54 @@
 <meta name="description" content="About Radigene B.V., a Dutch preclinical company developing imaging for engineered cell therapies.">
 <link rel="icon" href="assets/favicon-64.png">
 <link rel="canonical" href="https://radigene.nl/about.html">
+<link rel="preload" href="assets/fonts/Bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<header>
-  <a href="index.html" aria-label="Radigene home"><img src="assets/logo-full.png" alt="Radigene" width="44" height="39"></a>
-  <nav aria-label="Main">
-    <a href="index.html">Home</a>
-    <a href="about.html"  aria-current="page">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo-mark.png" alt="" width="30" height="30">Radigene</a>
+    <nav aria-label="Main"><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" aria-current="page">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+  </div>
 </header>
-<main>
-  <h1>About Radigene</h1>
-  <p>Radigene B.V. is a Dutch preclinical company. Its imaging approach has been shown in mice and is not used in patients.</p>
+<main id="main">
+<section class="hero" style="padding-bottom:clamp(32px,5vw,64px)"><div class="wrap">
+  <p class="eyebrow">About</p>
+  <h1>A Dutch <em>preclinical</em> company.</h1>
+  <p class="lede">Radigene B.V. develops imaging for engineered cell therapies. Its approach has been shown in mice and is not used in patients.</p>
+</div></section>
+<section style="padding-top:0"><div class="wrap">
   <h2>What we do</h2>
-  <p>Engineered cell therapies, such as CAR-T cells, are living medicines. Once infused, it is hard to see where they go in the body. Radigene is developing a reporter gene and a PET tracer so that engineered cells can be imaged.</p>
+  <p>Engineered cell therapies, such as CAR-T cells, are living medicines. Once infused, it is hard to see where they go. Radigene is developing a reporter gene and a PET tracer so that engineered cells can be imaged.</p>
+</div></section>
+<section class="tint"><div class="wrap">
   <h2>Founders</h2>
-  <div class="person">
-    <div class="ph" aria-hidden="true">LM</div>
-    <div>
-      <h3>Laura Mezzanotte</h3>
-      <p class="role">Co-founder and CEO</p>
+  <div class="people">
+    <div class="panel person">
+      <img src="assets/laura-mezzanotte.jpg" alt="Laura Mezzanotte" width="112" height="112">
+      <div><h3>Laura Mezzanotte</h3><p class="role">Co-founder and CEO</p>
       <p>Pharmaceutical biotechnologist (PhD, Bologna). Postdoc at LUMC, then Erasmus MC Radiology &amp; Nuclear Medicine from 2015, as associate professor and group leader. Leads science and daily operations.</p>
-      <p><a href="https://www.linkedin.com/in/lauramezzanotte/" rel="noopener" target="_blank">LinkedIn</a></p>
+      <p><a href="https://www.linkedin.com/in/lauramezzanotte/" rel="noopener" target="_blank">LinkedIn</a></p></div>
     </div>
-  </div>
-  <div class="person">
-    <img src="assets/cas-kranenburg.jpg" alt="Cas Kranenburg" width="96" height="96">
-    <div>
-      <h3>Cas Kranenburg</h3>
-      <p class="role">Co-founder and business development</p>
+    <div class="panel person">
+      <img src="assets/cas-kranenburg.jpg" alt="Cas Kranenburg" width="112" height="112">
+      <div><h3>Cas Kranenburg</h3><p class="role">Co-founder and business development</p>
       <p>Molecular biotechnologist (MSc, Wageningen). Research at Scripps (Florida) and the Netherlands Cancer Institute. Leads IP, partnerships and fundraising.</p>
-      <p><a href="https://www.linkedin.com/in/kranenburg-cas/" rel="noopener" target="_blank">LinkedIn</a></p>
+      <p><a href="https://www.linkedin.com/in/kranenburg-cas/" rel="noopener" target="_blank">LinkedIn</a></p></div>
     </div>
   </div>
-  <h2>Contact</h2>
-  <p>Partnerships, pilots and press: <a href="contact.html">get in touch</a>.</p>
+</div></section>
 </main>
-<footer>Radigene B.V. Preclinical. Investigational. Not used in patients. Not a medical device.</footer>
+<footer class="site">
+  <div class="wrap">
+    <span><b>Radigene B.V.</b> &middot; KvK 42179941 &middot; <a href="mailto:hello@radigene.nl">hello@radigene.nl</a></span>
+    <span>Preclinical. Investigational. Not used in patients. Not a medical device.</span>
+  </div>
+</footer>
 </body>
 </html>
