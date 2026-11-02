@@ -137,3 +137,6 @@ ul.tick b{display:block;margin-bottom:2px}
 .personal .btn{margin-top:24px}
 @media (max-width:640px){.personal{grid-template-columns:1fr}}
 .lede{text-wrap:balance}
+.person.adv{flex-direction:row;gap:18px;align-items:flex-start}.person.adv img{width:80px;height:80px}.advs{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}.need h2{max-width:24ch}
+.need h2{max-width:32ch}
+.recog .gr{display:flex;align-items:center;gap:16px}.recog .gr img{max-height:84px;padding:8px}.recog .gr .loc{padding:0}
