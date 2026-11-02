@@ -15,3 +15,10 @@ p,li{color:var(--muted);margin:0 0 16px}
 ul{padding-left:20px;margin:0 0 16px}
 a{color:var(--accent)}
 footer{padding:24px;text-align:center;font-size:.85rem;color:var(--muted);border-top:1px solid var(--line)}
+h3{font-size:1.05rem;margin:0}
+.person{display:flex;gap:20px;align-items:flex-start;margin:0 0 28px}
+.person img,.person .ph{width:96px;height:96px;border-radius:50%;object-fit:cover;flex:none}
+.person .ph{display:flex;align-items:center;justify-content:center;background:#E2F0FB;color:#0B4F86;font-weight:600;font-size:1.3rem}
+.person p{margin:0 0 8px}
+.person .role{font-size:.9rem}
+@media (max-width:480px){.person{flex-direction:column;gap:12px}}
