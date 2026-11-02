@@ -1,8 +1,7 @@
 /* Radigene, light editorial style (adapted from the 2026-10 site drafts). Light and dark follow the system setting. */
-@font-face{font-family:'Bricolage Grotesque';font-weight:200 800;font-stretch:75% 100%;font-display:swap;src:url(fonts/Bricolage-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Bricolage Grotesque';font-weight:200 800;font-stretch:75% 100%;font-display:swap;src:url(fonts/Bricolage-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:'Geist';font-weight:100 900;font-display:swap;src:url(fonts/Geist-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Geist';font-weight:100 900;font-display:swap;src:url(fonts/Geist-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'HK Grotesk';font-weight:700;font-style:normal;font-display:swap;src:url(fonts/HankenGrotesk-Bold-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'HK Grotesk';font-weight:700;font-style:normal;font-display:swap;src:url(fonts/HankenGrotesk-Bold-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+/* Titles: HK Grotesk Bold (self-hosted; Hanken Grotesk is its current name). Body text: Segoe UI, system fonts elsewhere. */
 
 :root{
   color-scheme:light dark;
@@ -11,8 +10,8 @@
   --line:#DAE2E8; --line-2:#C3CFD8;
   --accent:#1479C9; --accent-soft:#E2F0FB; --accent-ink:#0B4F86; --on-accent:#FFFFFF;
   --dark:#071017; --on-dark:#E9F0F4; --on-dark-muted:#9FB0BB;
-  --display:"Bricolage Grotesque","Geist",system-ui,sans-serif;
-  --sans:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --display:"HK Grotesk","Hanken Grotesk","Segoe UI",system-ui,sans-serif;
+  --sans:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
   --r-panel:28px; --pill:999px;
   --gut:clamp(20px,4vw,48px); --max:1080px;
 }
@@ -31,10 +30,10 @@ img{display:block;max-width:100%}
 :focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
 .skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:var(--on-accent);padding:10px 16px;border-radius:var(--pill);z-index:99;font:500 14px var(--sans);text-decoration:none}
 .skip:focus{left:8px}
-h1,h2,h3{font-family:var(--display);color:var(--ink);font-weight:700;letter-spacing:-.035em;line-height:1.02}
+h1,h2,h3{font-family:var(--display);color:var(--ink);font-weight:700;letter-spacing:-.03em;line-height:1.05}
 h1{font-size:clamp(40px,7vw,84px);max-width:16ch}
 h2{font-size:clamp(28px,4vw,44px);margin-bottom:20px}
-h3{font-size:clamp(20px,2.2vw,26px);line-height:1.1;letter-spacing:-.025em;font-weight:650}
+h3{font-size:clamp(20px,2.2vw,26px);line-height:1.1;letter-spacing:-.025em;font-weight:700}
 h1 em{font-style:normal;color:var(--accent)}
 p{max-width:62ch}
 p+p{margin-top:1em}
@@ -67,7 +66,7 @@ section{padding-block:clamp(56px,9vw,120px)}
 .person p{margin:0 0 10px}
 .kv{display:grid;grid-template-columns:max-content 1fr;gap:8px 24px}
 .kv dt{color:var(--subtle)} .kv dd{color:var(--ink)}
-.mail{font:650 clamp(22px,4vw,40px) var(--display);letter-spacing:-.03em;word-break:break-word}
+.mail{font:700 clamp(22px,4vw,40px) var(--display);letter-spacing:-.03em;word-break:break-word}
 
 footer.site{background:var(--dark);color:var(--on-dark-muted);font-size:14px;padding-block:32px}
 footer.site .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 32px}
