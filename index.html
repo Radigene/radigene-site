@@ -15,25 +15,45 @@
 <header class="site">
   <div class="wrap">
     <a class="brand" href="index.html"><img src="assets/logo-mark.png" alt="" width="30" height="30">Radigene</a>
-    <nav aria-label="Main"><ul>
-      <li><a href="index.html" aria-current="page">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul></nav>
+    <nav aria-label="Main"><ul><li><a href="index.html" aria-current="page">Home</a></li><li><a href="technology.html">Technology</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
   </div>
 </header>
 <main id="main">
-<section class="hero"><div class="wrap">
-  <p class="eyebrow">The imaging layer for living medicines</p>
-  <h1>Making engineered cell therapies <em>visible</em> in the body.</h1>
-  <p class="lede">Radigene B.V. is a Dutch company developing a reporter gene and a radiolabelled tracer to image engineered cells with PET and SPECT.</p>
-  <a class="btn" href="contact.html">Get in touch</a><a class="btn alt" href="about.html">About us</a>
+<section class="hero"><div class="wrap herogrid">
+  <div>
+    <p class="eyebrow">The imaging layer for living medicines</p>
+    <h1>Making engineered cell therapies <em>visible</em> in the body.</h1>
+    <p class="lede">Radigene B.V. is a Dutch company developing a reporter gene and a radiolabelled tracer to image engineered cells with PET and SPECT.</p>
+    <a class="btn" href="technology.html">See how it works</a><a class="btn alt" href="contact.html">Get in touch</a>
+  </div>
+  <figure class="vizwrap"><svg class="viz" viewBox="0 0 440 380" role="img" aria-label="Illustration: engineered cells, invisible at first, light up when a tracer binds the reporter on their surface.">
+  <g class="cells">
+    <circle cx="70" cy="70" r="26"/><circle cx="170" cy="48" r="20"/><circle cx="300" cy="80" r="28"/><circle cx="388" cy="150" r="22"/>
+    <circle cx="60" cy="210" r="22"/><circle cx="150" cy="300" r="28"/><circle cx="330" cy="310" r="24"/><circle cx="240" cy="360" r="14"/>
+    <circle class="tag t1" cx="235" cy="170" r="32"/><circle class="tag t2" cx="145" cy="150" r="24"/><circle class="tag t3" cx="320" cy="215" r="26"/>
+  </g>
+  <g class="trc">
+    <circle class="p p1" cx="30" cy="330" r="4"/><circle class="p p2" cx="410" cy="40" r="4"/><circle class="p p3" cx="30" cy="20" r="4"/><circle class="p p4" cx="420" cy="330" r="4"/>
+  </g>
+</svg><figcaption>Illustration. Tagged cells light up when the tracer binds.</figcaption></figure>
 </div></section>
 
-<section class="tint"><div class="wrap">
+<section class="strip"><div class="wrap facts">
+  <div><strong>76</strong><span>in vivo CAR-T trials registered. Radigene analysis of public trial registries, 29&ndash;30 October 2026.</span></div>
+  <div><strong>EMA</strong><span>The EU guideline for investigational advanced therapies (<a href="https://www.ema.europa.eu/en/guideline-quality-non-clinical-clinical-requirements-investigational-advanced-therapy-medicinal-products-clinical-trials-scientific-guideline" rel="noopener" target="_blank">EMA/CAT/22473/2025</a>) covers the biodistribution of cell and gene therapies.</span></div>
+  <div><strong>FDG</strong><span>The standard PET scan shows tissue metabolism, not which cells are where.</span></div>
+</div></section>
+
+<section><div class="wrap">
   <p class="eyebrow">The problem</p>
   <h2>We build living drugs, then lose sight of them.</h2>
   <p class="lede" style="margin-top:0">A CAR-T cell is not a small molecule. It travels, expands and persists on its own timeline. Once infused, it disappears from view. Where do the cells go? How many engraft? Why do some patients relapse?</p>
+</div></section>
+
+<section class="tint"><div class="wrap">
+  <p class="eyebrow">The question clinicians ask first</p>
+  <h2>Is that lesion the cancer, or the cure?</h2>
+  <p class="lede" style="margin-top:0">After cell infusion, a lesion can grow and brighten on a scan because the tumour progresses, or because a wave of activated T cells has arrived. A metabolic scan such as FDG PET shows both as hot. A reporter on the engineered cells gives the scan a way to tell them apart. That is what we aim to do.</p>
 </div></section>
 
 <section><div class="wrap">
@@ -44,15 +64,15 @@
     <div class="panel"><p class="num">2 &middot; Image</p><h3>A radiolabelled tracer</h3><p style="margin-top:12px">Binds the reporter on the cell, so that PET or SPECT can see it.</p></div>
     <div class="panel"><p class="num">3 &middot; Learn</p><h3>A picture of the living drug</h3><p style="margin-top:12px">Where the engineered cells are, across the whole body, without a biopsy.</p></div>
   </div>
+  <a class="btn" href="technology.html">Read the technology</a>
 </div></section>
 
 <section class="tint"><div class="wrap">
   <p class="eyebrow">What we aim to enable</p>
   <h2>From a black box to a measurable drug.</h2>
-  <div class="cols cols4" style="margin-top:32px">
+  <div class="cols" style="margin-top:32px">
     <div class="panel"><h3>Compare therapies</h3><p style="margin-top:12px">Compare competing cell therapies head to head by how well they reach their target.</p></div>
     <div class="panel"><h3>Predict response early</h3><p style="margin-top:12px">An early imaging signal as a biomarker of who responds and who is at risk.</p></div>
-    <div class="panel"><h3>Tell progression from immune response</h3><p style="margin-top:12px">A growing lesion after infusion can be tumour or activated T cells. We aim to tell them apart.</p></div>
     <div class="panel"><h3>Design better trials</h3><p style="margin-top:12px">Optimise dose and delivery with cell-specific imaging.</p></div>
   </div>
   <p style="margin-top:24px;font-size:.9rem">These are the aims of the platform. They are not yet demonstrated in patients.</p>
@@ -62,12 +82,15 @@
   <p class="eyebrow">Where we stand</p>
   <h2>Shown in mice. Built for the clinic.</h2>
   <p class="lede" style="margin-top:0">The underlying approach has been shown in mice (<a href="https://doi.org/10.3390/ijms25158206" rel="noopener" target="_blank">Gaspar et al., Int. J. Mol. Sci., 2024</a>). Radigene is taking it towards clinical use. It is not used in patients today.</p>
+  <p style="margin-top:20px"><span class="chip">Winner, Gulliver Challenge</span></p>
 </div></section>
 
 <section class="tint"><div class="wrap">
-  <h2>Working on a cell therapy?</h2>
-  <p>For pilots, partnerships and investor enquiries, write to us.</p>
-  <a class="btn" href="mailto:hello@radigene.nl">hello@radigene.nl</a>
+  <h2>Let&rsquo;s talk.</h2>
+  <div class="cols" style="margin-top:24px">
+    <div class="panel"><h3>Cell-therapy developers</h3><p style="margin-top:12px">Run a pilot with your construct.</p><a class="btn" href="mailto:hello@radigene.nl?subject=Pilot%20with%20our%20construct">Request a pilot</a></div>
+    <div class="panel"><h3>Investors and partners</h3><p style="margin-top:12px">Ask for the company overview.</p><a class="btn" href="mailto:hello@radigene.nl?subject=Overview%20request">Request the overview</a></div>
+  </div>
 </div></section>
 </main>
 <footer class="site">
