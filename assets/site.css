@@ -140,3 +140,23 @@ ul.tick b{display:block;margin-bottom:2px}
 .person.adv{flex-direction:row;gap:18px;align-items:flex-start}.person.adv img{width:80px;height:80px}.advs{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}.need h2{max-width:24ch}
 .need h2{max-width:32ch}
 .recog .gr{display:flex;align-items:center;gap:16px}.recog .gr img{max-height:84px;padding:8px}.recog .gr .loc{padding:0}
+
+/* 2026-11-02: weight contrast in headlines, dark approach band, phone header */
+@font-face{font-family:'HK Grotesk';font-weight:300;font-style:normal;font-display:swap;src:url(fonts/HankenGrotesk-Light-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+h2 em{font-style:normal;color:var(--accent)}
+h2 .soft{font-weight:300;letter-spacing:-.02em}
+.band{background:linear-gradient(180deg,#0E2B4A 0%,#071017 100%);color:var(--on-dark-muted)}
+.band .eyebrow{color:#8FD0FA}
+.band h2,.band h3{color:var(--on-dark)}
+.band h2 em{color:#4DB1F0}
+.band .num{color:#8FD0FA}
+.band .panel{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)}
+.band .btn{background:#4DB1F0;color:#05121B}
+.strip .facts strong{font-size:clamp(24px,3vw,34px)}
+@media (max-width:560px){
+  header.site .wrap{flex-wrap:wrap;justify-content:center;row-gap:4px;padding-block:10px}
+  nav ul{justify-content:center;gap:2px}
+  nav a{padding:6px 12px}
+  .facts>div{padding:18px 0;border-bottom:1px solid var(--line)}
+  .facts>div:last-child{border-bottom:0}
+}
