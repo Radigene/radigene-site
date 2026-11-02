@@ -4,7 +4,7 @@
 
 ## Pages
 - [Home](https://radigene.nl/): the problem (we cannot see where cell therapies go), the approach, aims and status
-- [Technology](https://radigene.nl/technology.html): reporter tag on the cell, radiolabelled peptide tracer, PET or SPECT scan
+- [Technology](https://radigene.nl/technology.html): reporter tag on the cell, radiolabelled peptide tracer, PET or SPECT scan, and questions and answers
 - [About](https://radigene.nl/about.html): founders Laura Mezzanotte (CEO) and Cas Kranenburg (business development)
 - [Contact](https://radigene.nl/contact.html): hello@radigene.nl
 
