@@ -160,3 +160,9 @@ h2 .soft{font-weight:300;letter-spacing:-.02em}
   .facts>div{padding:18px 0;border-bottom:1px solid var(--line)}
   .facts>div:last-child{border-bottom:0}
 }
+
+/* 3D hero (Three.js, assets/hero3d.js): canvas fades in over the SVG, which stays as the fallback */
+.hero3d-stack{position:relative}
+.hero3d-stack canvas{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity .7s ease;touch-action:pan-y}
+.hero3d-stack.on canvas{opacity:1}
+.hero3d-stack.on .viz{visibility:hidden}
