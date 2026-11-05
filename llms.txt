@@ -1,6 +1,6 @@
 # Radigene
 
-> Radigene B.V. is a Dutch company, based in the Leiden area, building the imaging layer for living medicines: a reporter gene on engineered cells and a matching radiolabelled tracer, so that PET and SPECT scans can show where the cells are in the body. The approach has been shown in mice. It is investigational, not used in patients and not a medical device.
+> Radigene B.V. is a Dutch company, based at Leiden Bio Science Park, building the imaging layer for living medicines: a reporter gene on engineered cells and a matching radiolabelled tracer, so that PET and SPECT scans can show where the cells are in the body. The approach has been shown in mice. It is investigational, not used in patients and not a medical device.
 
 ## Pages
 - [Home](https://radigene.nl/): the problem (we cannot see where cell therapies go), the approach, aims and status
@@ -9,7 +9,7 @@
 - [Contact](https://radigene.nl/contact.html): hello@radigene.nl
 
 ## Facts
-- Company: Radigene B.V., KvK 42179941, the Leiden area, the Netherlands
+- Company: Radigene B.V., KvK 42179941, Leiden Bio Science Park, the Netherlands
 - Founders: Laura Mezzanotte (leads science and operations), Cas Kranenburg (leads IP, partnerships and fundraising)
 - Evidence: the underlying approach was published in mice (Gaspar et al., Int. J. Mol. Sci. 2024, doi 10.3390/ijms25158206)
 - Status: aims such as comparing therapies, predicting response and designing trials are not yet demonstrated in patients
